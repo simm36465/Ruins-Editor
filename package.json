@@ -1,0 +1,41 @@
+{
+  "name": "ruins",
+  "productName": "Ruins",
+  "version": "1.0.0",
+  "description": "This is sample application for editing text and create file text",
+  "main": "main.js",
+
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "ml.mohammed-laksir.first_app",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "installicon.ico",
+      "uninstallerIcon": "unistallicon.ico",
+      "license": "LicenseRuins.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createStartMenuShortcut": true,
+      "createDesktopShortcut":true
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "10.1.5",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "custom-electron-titlebar": "^3.2.5",
+    "jquery": "^3.5.1"
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ruins</title>
+</head>
+<body>
+    <div class="app">
+        <div class="titlebar">
+            <header style="user-select: none;">
+            <div class="row">
+              <div class="column left">
+                <span id="close" class="dot" style="background:#ED594A;"></span>
+                <span id="maximize" class="dot" style="background:#FDD800;"></span>
+                <span id="minimize" class="dot" style="background:#5AC05A;"></span>
+              </div>
+              <div class="column middle">
+                <span id="path"></span>
+              </div>
+              <div class="column right">
+                <button class="save" id="save">Save</button>
+              </div>
+            </div>
+        </header>
+          </div>
+          <div class="subBar">
+              <div class="leftSub">
+              <span id="openfile">open file</span>
+                <label for="bgcolor">Background</label>
+                <input type="color" name="bgcolor" id="bgcolor" value="#ffffff">
+                
+                <label for="bgcolor">Text color</label>
+                <input type="color" name="txtcolor" id="txtcolor" value="#000000">
+
+              </div>
+              <div class="rightSub">
+                  <button id="incresfont" class="fa fa-plus"></button>
+                  <button id="decresfont" class="fa fa-minus"></button>
+              </div>
+          </div>
+          <div class="content">
+            <textarea  spellcheck="false" id="textareacontent"></textarea>
+          </div> 
+    </div>
+
+<script src="fontawesome.js"></script>
+<script src="init.js"></script>
+</body>
+</html>
