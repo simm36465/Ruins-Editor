@@ -1,3 +1,4 @@
+![alt text](https://raw.githubusercontent.com/simm36465/Ruins-Editor/main/icon.ico "Logo")
 # Ruins-Editor
 This is a sample application for editing text and creates files text and also my first app with electronjs
 # Common setup
